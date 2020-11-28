@@ -16,6 +16,7 @@ body{
 }
 
 .top-bar{
+	color:white;
 	background: #535353;
 	height: 40px;
 }
@@ -39,15 +40,16 @@ body{
 }
 
 .sb-box{
-	display: flex;
+/*	display: flex;
   	justify-content: center;
   	align-items: center;
 	height:50px;
-	background-color: #1b1b1b;
+*/	background-color: #535353;
 	transition: 0.7s;
+	border: none;
 }
 .sb-box:hover{
-	background-color: #535353;
+	background-color: #1b1b1b;
 }
 
 .imagebar{
@@ -59,17 +61,18 @@ body{
 	height:100vh;
 }
 
-.bottombar {
-  background-color: #333;
+.navbar-fixed-bottom {
+  /*background-color: #333;*/
   position: fixed;
   bottom: 0;
-  width: 100%;
+  z-index:998;
+  /*width: 100%;*/
   height: 5vh;
 }
 
 .about-bottom{
   position: fixed;
-  bottom: 5%;
+  bottom: 6%;
   /*margin-bottom: 10%;*/
 }
 
@@ -94,3 +97,11 @@ body{
   100% { transform: translate(0px,-10px) rotate(0deg); }
 }
 
+a{
+  	color: inherit; /* blue colors for links too */
+  	text-decoration: inherit; /* no underline */
+}
+a:hover{
+  	color: inherit; /* blue colors for links too */
+  	text-decoration: inherit; /* no underline */
+}
