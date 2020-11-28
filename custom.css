@@ -40,11 +40,11 @@ body{
 }
 
 .sb-box{
-/*	display: flex;
+	display: flex;
   	justify-content: center;
   	align-items: center;
-	height:50px;
-*/	background-color: #535353;
+	height:100px;
+	background-color: #535353;
 	transition: 0.7s;
 	border: none;
 }
@@ -72,8 +72,7 @@ body{
 
 .about-bottom{
   position: fixed;
-  bottom: 6%;
-  /*margin-bottom: 10%;*/
+  bottom: 8%;
 }
 
 
